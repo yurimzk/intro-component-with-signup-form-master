@@ -12,9 +12,21 @@
     --blue: hsl(248, 32%, 49%);
     --dark-blue: hsl(249, 10%, 26%);
     --grayish-blue: hsl(246, 25%, 77%);
+
+    --white: hsl(0, 0%, 100%);
 }
 
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-image: url(./images/bg-intro-mobile.png);
+    background-color: var(--red);
+}
+
+#app {
+    
 }
 
